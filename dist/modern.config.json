@@ -1,18 +1,20 @@
 {
   "autoLoadPlugins": false,
   "runtime": {
-    "router": true
+    "router": {
+      "basename": "./"
+    }
   },
   "runtimeByEntries": {},
   "source": {
     "alias": {
-      "styled-components": "/home/runner/lark-base-extension/node_modules/.pnpm/styled-components@5.3.11_@babel+core@7.23.7_react-dom@18.2.0_react@18.2.0__react-is@18.2.0_react@18.2.0/node_modules/styled-components/dist/styled-components.cjs.js",
-      "@modern-js/runtime/plugins": "/home/runner/lark-base-extension/apps/text-formatter/node_modules/.modern-js/.runtime-exports/plugins.js",
-      "@_modern_js_internal": "/home/runner/lark-base-extension/apps/text-formatter/node_modules/.modern-js",
-      "@_modern_js_src": "/home/runner/lark-base-extension/apps/text-formatter/src",
-      "@": "/home/runner/lark-base-extension/apps/text-formatter/src",
-      "@shared": "/home/runner/lark-base-extension/apps/text-formatter/shared",
-      "@modern-js/runtime-utils/node$": "/home/runner/lark-base-extension/node_modules/.pnpm/@modern-js+runtime-utils@2.45.0_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/@modern-js/runtime-utils/dist/cjs/node/index.js"
+      "styled-components": "/Users/bytedance/Desktop/projects/github_extensions/lark-base-extension/node_modules/.pnpm/styled-components@5.3.11_@babel+core@7.28.4_react-dom@18.2.0_react-is@18.3.1_react@18.2.0/node_modules/styled-components/dist/styled-components.cjs.js",
+      "@modern-js/runtime/plugins": "/Users/bytedance/Desktop/projects/github_extensions/lark-base-extension/apps/text-formatter/node_modules/.modern-js/.runtime-exports/plugins.js",
+      "@_modern_js_internal": "/Users/bytedance/Desktop/projects/github_extensions/lark-base-extension/apps/text-formatter/node_modules/.modern-js",
+      "@_modern_js_src": "/Users/bytedance/Desktop/projects/github_extensions/lark-base-extension/apps/text-formatter/src",
+      "@": "/Users/bytedance/Desktop/projects/github_extensions/lark-base-extension/apps/text-formatter/src",
+      "@shared": "/Users/bytedance/Desktop/projects/github_extensions/lark-base-extension/apps/text-formatter/shared",
+      "@modern-js/runtime-utils/node$": "/Users/bytedance/Desktop/projects/github_extensions/lark-base-extension/node_modules/.pnpm/@modern-js+runtime-utils@2.45.0_react-dom@18.2.0_react@18.2.0/node_modules/@modern-js/runtime-utils/dist/cjs/node/index.js"
     },
     "globalVars": [
       {
@@ -33,7 +35,7 @@
       {},
       {},
       {},
-      "/home/runner/lark-base-extension/apps/text-formatter/node_modules/.modern-js"
+      "/Users/bytedance/Desktop/projects/github_extensions/lark-base-extension/apps/text-formatter/node_modules/.modern-js"
     ]
   },
   "tools": {
@@ -70,7 +72,7 @@
       "server": "bundles",
       "worker": "worker"
     },
-    "assetPrefix": "/",
+    "assetPrefix": "./",
     "filename": {},
     "charset": "ascii",
     "polyfill": "entry",
@@ -216,7 +218,9 @@
   "builderPlugins": [],
   "_raw": {
     "runtime": {
-      "router": true
+      "router": {
+        "basename": "./"
+      }
     },
     "source": {
       "mainEntryName": "index"
@@ -225,7 +229,8 @@
       "distPath": {
         "html": "",
         "root": "../../dist"
-      }
+      },
+      "assetPrefix": "./"
     },
     "html": {
       "disableHtmlFolder": true
@@ -233,7 +238,8 @@
     "plugins": [
       "[Circular 0]",
       "[Circular 1]"
-    ]
+    ],
+    "tools": {}
   },
   "bff": {},
   "testing": {},
